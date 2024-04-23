@@ -5,7 +5,7 @@ function App() {
   const [result, setResult] = useState("");
   const handleClick = e => setResult(result.concat(e.target.id))
   const clear = () => setResult("")
-  const deleteEl = () => setResult(result.slice((0, -1)))
+  const deleteEl = () => setResult(result.slice((0, 1)))
   
   const calculate = () => {
     try{
