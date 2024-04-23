@@ -25,3 +25,9 @@ button{
 .operator{
   @apply bg-blue-400 text-white rounded-lg p-2
 }
+.react{
+  @apply text-4xl text-yellow-400 font-sans pt-12 mt-20 text-center font-bold 
+}
+body{
+  background:linear-gradient(blue, limegreen, rgb(0, 255, 225));
+}
